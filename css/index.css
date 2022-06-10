@@ -1,0 +1,97 @@
+body {
+    padding: 0px;
+    margin: 0 auto;
+    background-color: #333;
+    font-family: Calibri, "Courier New";
+    font-weight: bold;
+    color: pink;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+header {
+    height: 200px;
+    width: 100%;
+    background-color:#333;
+}
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #333;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 2px dashed pink
+} 
+td {
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+img {
+    filter: blur(5px);
+    box-shadow: -1px -1px 0 pink, 1px -1px 0 pink, -1px 1px 0 pink, 1px 1px 0 pink;
+}
+
+img:hover {
+    filter: none;
+
+}
+
+.picFormat {
+    margin: 0;
+    padding: 0px;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+#A1{
+    background-color: #FFF;
+}
+#A2{
+    background-color: #EEE;
+}
+#A3{
+    background-color: #DDD;
+}
+#A4{
+    background-color: #CCC;
+}
+#B1{
+    background-color: #BBB;
+}
+#B2{
+    background-color: #AAA;
+}
+#B3{
+    background-color: #999;
+}
+#B4{
+    background-color: #888;
+}
+#C1{
+    background-color: #777;
+}
+#C2{
+    background-color: #666;
+}
+#C3{
+    background-color: #555;
+}
+#C4{
+    background-color: #444;
+}
+#D1{
+    background-color: #333;
+}
+#D2{
+    background-color: #222;
+}
+#D3{
+    background-color: #111;
+}
+#D4{
+    background-color: #000;
+}
